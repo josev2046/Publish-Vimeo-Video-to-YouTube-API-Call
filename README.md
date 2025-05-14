@@ -1,5 +1,7 @@
 ## Internal Functionality: Publish Vimeo Video to YouTube (API Call)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15401709.svg)](https://doi.org/10.5281/zenodo.15401709)
+
 **Purpose:** To instruct the Vimeo API to publish the given video to the currently connected YouTube channel with the specified title, description, privacy setting, and tags.
 
 **Note:** This functionality is an internal operation and requires a Vimeo Enterprise account with the relevant capability enabled for accessing the "Publish to Social" API. Vimeo API documentation for the "Publish to Social" endpoint should be consulted for detailed information on requirements, error handling, and response formats.
