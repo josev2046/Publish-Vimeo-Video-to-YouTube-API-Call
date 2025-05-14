@@ -1,0 +1,14 @@
+@startuml
+participant Client
+participant Server
+
+Client -> Server: PUT /videos/YOUR_VIDEO_ID/publish_to_social
+note over Client, Server
+  Headers: Authorization, Content-Type
+  Body: {"youtube": {"title": "...", "description": "...", "privacy": "...", "tags": "..."}}
+end note
+Server -->> Client: HTTP/1.1 200 OK (or error)
+note over Server, Client
+  Response Body: JSON data (e.g., job details)
+end note
+@enduml
